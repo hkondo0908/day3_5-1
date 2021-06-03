@@ -13,7 +13,7 @@ defmodule Calculator do
     end
 
     def substract(x,y) when x>=y do
-        :timer.sleep(1_000)
+        Timer.sleep(1_000)
         x - y
     end
 
